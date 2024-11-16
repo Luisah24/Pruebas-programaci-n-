@@ -1,11 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handlee">
+    <title>My blog</title>
 </head>
 <body>
-    
+
+    <div id="header" class="section">
+        <img src="Imagenes/username.png" alt="img-circle">
+        <p>Luisa Hincapie</p>
+    </div>
+ <!--Descripcion breve sobre mi-->
+    <div class="section">
+        <h1><span>Sobre Mi</span></h1>
+        <p>Hey! Yo soy <strong>Luisa</strong>. La codificación ha cambiado mi mundo. No se trata sólo de aplicaciones. 
+         Aprender a codificar me dio<i>habilidades para resolver problemas</i>y una forma de comunicarme con otros 
+         a nivel técnico. También puedo desarrollar sitios web y utilizar mis habilidades de codificación para conseguir un mejor trabajo.
+        Y lo aprendí todo de <strong>SoloLearn</strong> ,donde desarrollan tu autoestima y te mantienen motivado. Únase a mí en este viaje gratificante.
+         ¡Te divertirás, obtendrás ayuda y aprenderás a lo largo del camino!</p>
+
+         <p class="quote">Declara variables no guerra</p>
+
+    </div>
+
+
+    <!--Mi horario- Tabla de horario-->
+    <div class="section">
+        <h1><span>Mi horario</span></h1>
+        <table>
+            <tr>
+                <td>Day</td>
+                <td>Mon</td>
+                <td>Tue</td>
+                <td>Wed</td>
+                <td>Thu</td>
+                <td>Fri</td>
+            </tr>
+            <tr>
+                <td>8-8:30</td>
+                <td class="selected">Aprender</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>9-10</td>
+                <td></td>
+                <td class="selected">Practicar</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>1-1:30</td>
+                <td></td>
+                <td></td>
+                <td class="selected">Jugar</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>3:45-5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="selected">Codigo</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>6-6:15</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="selected">Discutir</td>
+            </tr>
+        </table>
+    </div>
+
+<!--Desvcripcion de habilidades aprendidas-->
+
+<div class="section">
+<h1><span>Mis habilidades</span></h1>
+<ul>
+    <li>HTML<br>
+    <progress min="0" max="100" value="80"></progress></li>
+    <li>Javascript<br>
+    <progress min="0" max="100" value="50"></progress></li>
+    <li>Python<br>
+    <progress min="0" max="100" value="30"></progress></li>
+
+</ul>
+</div>
+
+<!--Seccion de multimedia-->
+
+<div class="section">
+    <h1><span>Mi multimedia</span></h1>
+    <iframe height="150" width="300" src="https://www.youtube.com/embed/Q6_5InVJZ88" allowfullscreen frameborder="0"></iframe>"
+</div>
+
+<!--Realizacion de formulario-->
+
+<div class="section">
+    <h1><span>Contactame</span></h1>
+
+    <sgv class="face" height="100" width="100">
+    <cicle cx="50" cy="50" r="50" fill="#FDD835"></cicle>
+    <cicle cx="30" cy="30" r="10" fill="#FDD835"></cicle>
+    <cicle cx="70" cy="30" r="10" fill="#FDD835"></cicle>
+    <cicle cx="30" cy="30" r="5" fill="#FDD835"></cicle>
+    <cicle cx="70" cy="30" r="5" fill="#FDD835"></cicle>
+    <path d="M 30 70 q 20 20 40 0"  stroke="#FFFFFF" stroke-width="5" fill="none"></path>
+    </sgv>
+
+    <form>
+        <input name="name" placeholder="Name" type="text" required><br>
+        <input name="email" placeholder="Email" type="email" required><br>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <input type="submit" value="Enviar" class="submit">
+
+    </form>
+</div>
+
+<!--Seccion de datos de contacto-->
+<div class="section" id="contacts">
+    <h1><span>Sigueme</span></h1>
+    <div>
+        <a href="https://www.sololearn.com/" target="_blank">
+        <img src="https://www.sololearn.com/Uploads/icons/sololearn.png" alt="Sololearn"></a>
+
+        <a href="#">
+            <img src="https://www.sololearn.com/Uploads/icons/facebook.png" alt="Facebook"></a>
+        
+        <a href="#">
+         <img src="https://www.sololearn.com/Uploads/icons/twitter.png" alt="Twitter"></a>
+    </div>
+</div>
+
+<div class="copyright">
+    &copy;2017 mi blog. Reservado derechos de autor.
+</div>
+
 </body>
 </html>
